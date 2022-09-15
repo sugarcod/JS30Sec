@@ -1,2 +1,2 @@
-# JS30Sec
+# GoEs
 Created with CodeSandbox
