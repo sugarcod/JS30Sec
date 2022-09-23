@@ -2,10 +2,10 @@
   "name": "vanilla",
   "version": "1.0.0",
   "description": "JavaScript example starter project",
-  "main": "02/index.html",
+  "main": "03/index.html",
   "scripts": {
-    "start": "parcel 02/index.html --open",
-    "build": "parcel build 02/index.html"
+    "start": "parcel 03/index.html --open",
+    "build": "parcel build 03/index.html"
   },
   "dependencies": { "parcel-bundler": "^1.6.1" },
   "devDependencies": {

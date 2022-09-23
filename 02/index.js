@@ -6,13 +6,17 @@ window.onload = function () {
 
   function pushClock() {
     let time = new Date();
-    hour.style.transform = `rotate(${time.getHours() * 15 + 45}deg)`;
+    console.log(time, "time");
+
+    console.log(time.getHours(), "time.getHours() * 15");
+
+    hour.style.transform = `rotate(${time.getHours() * 30 + 90}deg)`;
     hour.style.transformOrigin = "right";
 
-    minute.style.transform = `rotate(${time.getMinutes() * 6 + 18}deg)`;
+    minute.style.transform = `rotate(${time.getMinutes() * 6 + 90}deg)`;
     minute.style.transformOrigin = "right";
 
-    second.style.transform = `rotate(${time.getSeconds() * 6 + 18}deg)`;
+    second.style.transform = `rotate(${time.getSeconds() * 6 + 90}deg)`;
     second.style.transformOrigin = "right";
   }
 
